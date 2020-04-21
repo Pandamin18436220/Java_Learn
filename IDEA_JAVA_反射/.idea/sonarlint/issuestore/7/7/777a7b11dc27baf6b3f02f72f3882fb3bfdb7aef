@@ -1,0 +1,34 @@
+
+s
+java:S1104T"QMake width a static final constant or non-public and provide accessors if needed.(·çº›ÿÿÿÿÿ8²ØïÊ—.
+s
+java:S1104^"QMake width a static final constant or non-public and provide accessors if needed.(“¦Åøÿÿÿÿ8œâÛ—.
+M
+java:S1444T"+Make this "public static width" field final(·çº›ÿÿÿÿÿ8²ØïÊ—.
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(ÎÛŒ 8îåÅÜ—.
+I
+java:S1481:"'Remove this unused "cc" local variable.(…ß»İşÿÿÿÿ8æ£ÔÜ—.
+C
+java:S1481/"&Remove this unused "a" local variable.(õ‡Ğ8 ïĞÜ—.
+g	java:S101'"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿÊæÁúÿÿÿÿ
+i	java:S101]"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿ù“í8¾ÍœÛ—.
+M
+java:S3252J"0Use static access with "JAVA_JVM.A" for "width".(ÎÛŒ 8öŒÆÜ—.
+>
+java:S2440/"!Remove this instantiation of "A".(õ‡Ğ8 ïĞÜ—.
+M
+java:S1444^"+Make this "public static width" field final(“¦Åøÿÿÿÿ8œâÛ—.
+R
+java:S3252A"5Use static access with "JAVA_JVM.A_Father" for "MAX".(¢®½è8•„ËÜ—.
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(®»éÓùÿÿÿÿ8²ØïÊ—.
+T	java:S106)"9Replace this use of System.out or System.err by a logger.(½¤p8Ã¢ÕÜ—.
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(×îõ¤8Ö„ÅÜ—.
+U	java:S106A"9Replace this use of System.out or System.err by a logger.(¢®½è8•„ËÜ—.
+U	java:S106Z"9Replace this use of System.out or System.err by a logger.(îŠÆñ8¦úõÊ—.
+W
+java:S1118]":Add a private constructor to hide the implicit public one.(¿ù“í8–›¡Û—.
+I
+java:S1481E"'Remove this unused "as" local variable.(‹‚…şÿÿÿÿ8¯ËÉÜ—.
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(›±¨Úûÿÿÿÿ8¨ÕÑÜ—.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇøÛË
+U	java:S106a"9Replace this use of System.out or System.err by a logger.(’—£8œâÛ—.

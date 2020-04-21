@@ -1,0 +1,19 @@
+package Chat01;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+/**
+ * 在线聊天室：客户端
+ * 目标：实现一个客户可以正常收发信息
+ * @author Pandamin
+ *
+ */
+public class Client {
+	public static void main(String[] args) throws UnknownHostException, IOException {
+		System.out.println("----------Client------------");
+//		 * 1.建立连接：使用Socket创建客户端+服务器地址和端口
+		Socket client = new Socket("localhost",8888);
+	}
+}

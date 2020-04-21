@@ -1,0 +1,5 @@
+package JAVAStudy_IO;
+
+public class Study_IO_ÎÄ¼þ¼ÐµÄ¿½±´ {
+
+}

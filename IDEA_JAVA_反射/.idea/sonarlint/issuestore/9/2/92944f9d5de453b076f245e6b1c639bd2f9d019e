@@ -1,0 +1,10 @@
+
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(İã¯³
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(é™Õşûÿÿÿÿ8“¿‰­™.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ8¬›¥¬™.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(Æ‚”8°ñƒ­™.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(İã¯³8¬›¥¬™.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(Î’ÛÚ8¬›¥¬™.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×Â’û
+^
+java:S1128"<Remove this unused import 'GOF23.Factory.SimpleFactory.Byd'.(õøõûÿÿÿÿ8Ã¹¬™.

@@ -1,0 +1,14 @@
+package Study_UDP;
+/**
+ * 发送端：使用面向对象封装
+ * @author Pandamin
+ *
+ */
+public class TalkSend implements Runnable{
+
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

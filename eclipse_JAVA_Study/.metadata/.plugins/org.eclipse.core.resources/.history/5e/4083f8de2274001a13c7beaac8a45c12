@@ -1,0 +1,125 @@
+package Test01;
+
+import java.util.Scanner;
+
+
+public class test{
+	/**
+	 * 两个对象，一个顾客，一个老板， 顾客来点包子吃，每次顾客来了，老板要先问你想吃什么，
+	 * 顾客回答吃包子，老板就开始做包子，顾客进入睡眠，老板要10秒做一个包子，做好后顾客开吃，
+	 * 吃30秒吃完，吃完回答一声好吃，在20秒内随机有顾客加入，如果没有包子要做了 老板要停下来不运行进入睡眠
+	 * @param args
+	 */
+	private int mbun_allcounts;
+	private int ebun_counts;//吃包子个数
+	private boolean openning = true;
+	private String foodname;
+	
+	public static void main(String[] args) {
+		
+		storage stor = new storage();
+		
+		int mbun_allcounts;
+		int ebun_counts;//吃包子个数
+		System.out.println("请输入老板今天可以做多少个包子！");
+		Scanner scan = new Scanner(System.in);
+		mbun_allcounts = scan.nextInt();
+		System.out.println("==============营业中================");
+		
+		boss b = new boss(mbun_allcounts);
+		b.display();
+		ebun_counts = scan.nextInt();
+		foodname = scan.nextLine();
+		customer c = new customer(foodname,ebun_counts);
+		new Thread(b).start();
+		new Thread(c).start();
+	}	
+}
+
+class boss implements Runnable{
+	static int mbun_allcounts;//能做包子总个数
+	private boolean making = true;
+	storage stor;
+	public boss(int mbun_allcounts,storage stor){
+		this.mbun_allcounts=mbun_allcounts;
+		this.stor = stor;
+	}
+	public void display(){
+		System.out.println("欢迎光临，本店有.....,您需要吃什么？");
+	}
+	public void run() {
+		// TODO Auto-generated method stub
+		while(making){
+			System.out.println("老板开始做包子，需要10秒才能做好！");
+			storage.push(new customer("包子",2));
+			try {
+				Thread.sleep(10*1000);
+				this.mbun_allcounts--;
+				if(mbun_allcounts==0){
+					making = false;
+				}
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+}
+class customer implements Runnable{
+	private int ebun_counts;//吃包子个数
+	private String foodname;
+	private boolean eating = true;
+	public customer(String foodname,int ebun_counts){
+		this.foodname=foodname;
+		this.ebun_counts=ebun_counts;
+	}
+	public void display(String foodname){
+		System.out.println("我想吃"+this.ebun_counts+"个"+this.foodname);
+	}
+	public void run() {
+		// TODO Auto-generated method stub
+		while(eating){
+			System.out.println("顾客在吃包子");
+			try {
+				Thread.sleep(30*1000);
+				System.out.println("包子好吃，老板再见！");
+				eating = false;
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+}
+class storage{
+	customer[] customers=new customer[10];//门店容纳10人
+	int count=0;
+	public synchronized void push(customer customer) {
+		if(count==customers.length){
+			try {
+				this.wait();//线程阻塞，顾客通知老板解除
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		//存在空间
+		customers[count++]=customer;
+		this.notifyAll();//唤醒
+	}
+	//取
+	public synchronized customer pop() {
+		if(count==0){
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}//线程阻塞，老板通知顾客解除
+		}
+		//存在
+		count--;
+		this.notifyAll();//唤醒
+		return null;
+	}
+}

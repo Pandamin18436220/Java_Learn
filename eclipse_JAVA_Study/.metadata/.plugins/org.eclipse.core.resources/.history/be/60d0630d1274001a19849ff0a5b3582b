@@ -1,0 +1,47 @@
+package Test;
+
+import com.sun.java_cup.internal.runtime.Scanner;
+
+public class test {
+	/**
+	 * 两个对象，一个顾客，一个老板， 顾客来点包子吃，每次顾客来了，老板要先问你想吃什么，
+	 * 顾客回答吃包子，老板就开始做包子，顾客进入睡眠，老板要10秒做一个包子，做好后顾客开吃，
+	 * 吃30秒吃完，吃完回答一声好吃，在20秒内随机有顾客加入，如果没有包子要做了 老板要停下来不运行进入睡眠
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.println("请输入老板今天可以做多少个包子！");
+		Scanner scan = new Scanner(System.in);
+		new Thread(new boss()).start();
+	}	
+}
+
+class boss implements Runnable{
+	private int mbun_allcounts;//能做包子总个数
+	public boss(int mbun_allcounts){
+		this.mbun_allcounts=mbun_allcounts;
+	}
+	public void making(int mebun_counts){
+		System.out.println("老板开始做"+mebun_counts+"个包子，需要"+mebun_counts*10+"秒才能做好！");
+	}
+	
+	
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+
+class customer implements Runnable{
+	private int ebun_counts;//吃包子个数
+	public customer(int ebun_counts){
+		this.ebun_counts=ebun_counts;
+	}
+	public void eating(int ebun_counts){
+		System.out.println("顾客吃"+ebun_counts+"个包子，需要30s吃完,吃完叫好，就离开了！");
+	}
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}

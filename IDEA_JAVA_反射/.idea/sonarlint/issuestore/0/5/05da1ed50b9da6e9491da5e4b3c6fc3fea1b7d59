@@ -1,0 +1,10 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ®•
+D
+java:S1125?"(Remove the literal "true" boolean value.(´Ûã8î™°Ã™.
+E
+java:S1125D"(Remove the literal "true" boolean value.(€îö£8£Ò±Ã™.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–Ä Ô8—ÏºÃ™.
+c
+java:S11267"AReplace this if-then-else statement by a single return statement.(ªåæÿúÿÿÿÿ8Î„®Ã™.

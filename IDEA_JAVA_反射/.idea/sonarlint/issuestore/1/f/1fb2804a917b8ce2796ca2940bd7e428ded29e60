@@ -1,0 +1,12 @@
+
+O
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ8®‹àé™.
+F
+java:S2115")Add password protection to this database.(áœ‹Í8™¤†ê™.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(·Ð “8ÊÍƒê™.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ú‚®Šùÿÿÿÿ
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8®‹àé™.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¢ Ì×üÿÿÿÿ8©à¤ê™.
+e
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(áœ‹Í8©½£ê™.

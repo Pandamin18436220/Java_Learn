@@ -1,0 +1,18 @@
+
+<
+java:S1168C"&Return an empty array instead of null.(¥¹ï
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇøÛË
+E
+java:S20938"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+>
+java:S1148P"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+A
+java:S10754"&Remove this hard-coded path-delimiter.(í§¼Ñùÿÿÿÿ
+>
+java:S1148B"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Q
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8Ýé…ç—.
+>
+java:S1148I"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+M
+java:S2589E"7Remove this expression which always evaluates to "true"(Ù„¶þ

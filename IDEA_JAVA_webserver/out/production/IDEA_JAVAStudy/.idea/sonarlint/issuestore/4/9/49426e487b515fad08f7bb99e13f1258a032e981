@@ -1,0 +1,13 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä—›Å
+>
+java:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+j	java:S116"PRename this field "BLANK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë‰¹Ôÿÿÿÿÿ
+c	java:S116"ORename this field "CRLF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎþÁ
+<
+java:S1170"!Make this final field static too.(Ë‰¹Ôÿÿÿÿÿ
+6
+java:S1170"!Make this final field static too.(ÎþÁ
+7	java:S131J""Add a default case to this switch.(¡Ó˜ë
+@
+java:S1068"*Remove this unused "client" private field.(þÌÿ

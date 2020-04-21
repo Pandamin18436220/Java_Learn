@@ -1,0 +1,109 @@
+
+S
+#src/Server_study01/ReflectTest.java,1\b\1bc961dc546a71726b1e5e0c79cda30b40b3c76c
+N
+src/Server_study02/Entity.java,4\f\4fc919896d192b417b73cd830bb1ff49be28bc94
+Q
+!src/Server_study01/XMLTest02.java,5\5\55d148db70ae383d6e9f9e2a32ce42786360f215
+Q
+!src/Server_study02/XMLTest02.java,2\6\26e7387c317ebc95cd611f2f5febc30df8653205
+O
+src/Server_study02/Mapping.java,9\8\98c3908aa0eb630713b869d86d4946f7889ad086
+J
+src/Server_study02/web.xml,1\0\10e75ffacebcd346de52ebef1a10d740c02ddfa5
+R
+"src/Server_study02/WebContext.java,6\5\65322aac9412538a7da179109af02906439e27c8
+O
+src/Server_study02/Servlet.java,a\4\a46dcde0f8d4b43be346c807df494d6d1deab473
+T
+$src/Server_study02/LoginServlet.java,0\3\03b83b902720e5315a976101cd636c20bb492cc5
+W
+'src/Server_study02/RegisterServlet.java,a\3\a30e00770e05af4573903265f0cf0e5b21700b89
+H
+src/Server_study01/p.xml,e\7\e734ffe396c9eb3ec7463ed9f38d0d2d74c00743
+Q
+!src/Server_study01/XMLTest01.java,1\3\13a90a0f6fbad49c23071798d6f7ff85bede16f9
+P
+ src/Server_study03/Server02.java,0\2\02d81b9fcbeaf8eb5b52411a96265ce1aaef193d
+P
+ src/Server_study03/Response.java,2\8\286faea0f844c5d8d7e3da823edcac1addcfcf2f
+P
+ src/Server_study03/Server03.java,7\3\731c9f7c4b9e79b29a76b6be10c756f6f3d0a68f
+P
+ src/Server_study03/Server04.java,8\d\8d4d746d38a914998360307c68910da096e642ca
+O
+src/Server_study03/Request.java,6\4\643d3b7699fbd7ccacc8cde8be238c842eaa74ad
+P
+ src/Server_study03/Request2.java,5\8\58df1fe181b981558970c4f5a197121096e4b592
+P
+ src/Server_study03/Server05.java,b\b\bb54a2468618257ae3f5a41e4cedfd2328149719
+O
+src/Server_study04/Servlet.java,b\a\ba5a97185e341d4d8991e9d6969e347c2c3c4700
+W
+'src/Server_study04/RegisterServlet.java,2\d\2d8e974bf05f2c408db153cf95fea097e8b9f061
+N
+src/Server_study04/Entity.java,a\9\a997232c8fbbed1c496139baa47595c1e4d6cb0c
+O
+src/Server_study04/Mapping.java,b\b\bbcfb3e2694441b50cd9cabeec8b4296f0491944
+T
+$src/Server_study04/LoginServlet.java,2\4\241ec65fbda2eb8668e66d8040ed0ead186214e8
+P
+ src/Server_study04/Response.java,4\9\49426e487b515fad08f7bb99e13f1258a032e981
+P
+ src/Server_study04/Server06.java,c\5\c56d487e17cbe79589def8592ddfeb8f630af742
+R
+"src/Server_study04/WebContext.java,a\d\ada487f126422b739f71c7b4544f506a40433769
+P
+ src/Server_study04/Server07.java,6\7\67ef2dfeff711a141c363805beaaac34cc60a5b0
+N
+src/Server_study04/WebApp.java,8\3\83173ab6e9c26d2a9348a62e72257bca867047c7
+J
+src/Server_study04/web.xml,5\f\5f2175ed098cbbee4f56c1525f443b82bdaca88d
+T
+$src/Server_study04/OtherServlet.java,0\d\0d97ea3431796beb6e729fab223c87b0054f336a
+O
+src/Server_study04/Request.java,d\d\ddeb50ecf60f413d202f53051001f65a80ab062d
+R
+"src/Server_study04/WebHandler.java,a\6\a67c7c4207be867872274b500c6a6ad4a53fb565
+P
+ src/Server_study04/Server08.java,9\5\95ca15613df6ed15be4eb70ff5422cfb61a0fec7
+>
+src/error.html,0\9\097d67aa4e3c2cfa15e1b7856e0ee2aeef5b1e4c
+S
+#src/Server_study04/Dispatcher1.java,a\2\a2c96bde2401865600e0afd05e792bcc626c6421
+>
+src/index.html,5\c\5c975582791da6f060261188096d6aad85db6e09
+R
+"src/Server_study04/Dispatcher.java,4\d\4d7a66f5dc7ac2ab403ea88f9d17c421a0cbb9f7
+P
+ src/Server_study04/Server09.java,2\d\2de9ce4ddd1feee81f97f0eab558544550f27924
+R
+"src/Server_study_core/Servlet.java,4\2\42c02a9e51bb004de7aafc4f40295c527d99a870
+R
+"src/Server_study_core/Mapping.java,1\2\12834a78693b5cd4d7503afbd6775ee09b418738
+U
+%src/Server_study_core/WebContext.java,7\9\793588c63daf3199e0a70b373723eab325972e51
+Q
+!src/Server_study_core/Entity.java,b\6\b69d0be63cf97f7cca243c04df24c8401ac668cf
+O
+src/core_user/OtherServlet.java,1\4\1410116528320f5dbc51a9708f69524d28fd9336
+O
+src/core_user/LoginServlet.java,3\3\338375808c579a0677cc7e2e17484dd95ffaec91
+R
+"src/core_user/RegisterServlet.java,7\e\7e54beb15d19fbcb3dd8e01aaa4eb987aca8d834
+;
+src/web.xml,1\8\180d6ce6c131006075f9fea628f071fa8f984a57
+R
+"src/Server_study_core/Request.java,3\e\3ed67162371337b8b6ef23de769ca7ae7414ee07
+<
+src/reg.html,f\5\f5d6c96e9b47fedb0403d3d99478b00fa0438f11
+>
+src/login.html,1\2\12f655c1cab39319875c42a46451ee15f9eeaa65
+Q
+!src/Server_study_core/WebApp.java,e\9\e9731b9eecae158b11859f37b2af8f75348e75ba
+U
+%src/Server_study_core/Dispatcher.java,d\0\d004a3042d10c93fb1b13dc5591036bb9195250f
+S
+#src/Server_study_core/Response.java,8\0\8057b4fbf9baa02801860feeff1697bb613852ba
+Q
+!src/Server_study_core/Server.java,9\e\9e656ee6b4927a7b67b38c18ef1c2bfe253ac010

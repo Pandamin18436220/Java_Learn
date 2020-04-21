@@ -1,0 +1,11 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ַרÛֻ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(×׃¼ב‏ÿÿÿÿ8¢›זז—.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„¿י·
+‚
+java:S1192"`Define a constant instead of duplicating this literal "JAVA_Dynamic.ו¨ז€ח¼–ט¯‘.hello" 3 times.(ßסײּ‏ÿÿÿÿ8°Úז—.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(†Ù‰ֵ8°Úז—.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ִü­םשÿÿÿÿ8חשֽז—.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹®…û8ß®׳ז—.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ֳב×•8ו׀יז—.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(םנ>8ָהז—.

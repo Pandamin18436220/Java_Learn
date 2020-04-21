@@ -1,0 +1,19 @@
+
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(Ë–£Ù
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(£äÕ8éğÁå•.
+M	java:S106K"9Replace this use of System.out or System.err by a logger.(äú¥!
+L
+java:S1066i"/Merge this if statement with the enclosing one.(æƒ¯8Œ¬¨ã•.
+H
+java:S2755"-Disable XML external entity (XXE) processing.(ÂÿÕ‹ÿÿÿÿÿ
+?
+java:S1185€"(Remove this method to simply inherit it.(¶ÌÑ±
+L
+java:S1066a"/Merge this if statement with the enclosing one.(æƒ¯8˜Œ­ã•.
+{
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(…Àš¦ÿÿÿÿÿ8œ‡ã•.
+{
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ¡™úÿÿÿÿ8™‹ã•.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†›Ö¯ÿÿÿÿÿ
+o
+java:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(³æş·8˜Œ­ã•.

@@ -1,0 +1,6 @@
+
+L
+java:S1144-"0Remove this unused private "getInstance" method.(¦¤çy8×²­˜.
+M
+java:S2440*"0Remove this instantiation of "SingletonDemon04".(äÈ†œ8Şâ©˜.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯öˆ»

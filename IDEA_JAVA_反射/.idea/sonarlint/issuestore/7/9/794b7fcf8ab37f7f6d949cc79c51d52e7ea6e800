@@ -1,0 +1,16 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(··ü¨
+B
+java:S1659" Declare "f6" on a separate line.(ô¢åŒÿÿÿÿÿ8øÕ¸¸™.
+B
+java:S1659" Declare "f3" on a separate line.(ô¢åŒÿÿÿÿÿ8øÕ¸¸™.
+I
+java:S1481"'Remove this unused "f6" local variable.(ô¢åŒÿÿÿÿÿ8øÕ¸¸™.
+B
+java:S1659" Declare "f5" on a separate line.(ô¢åŒÿÿÿÿÿ8øÕ¸¸™.
+I
+java:S1481"'Remove this unused "f4" local variable.(ô¢åŒÿÿÿÿÿ8øÕ¸¸™.
+B
+java:S1659" Declare "f4" on a separate line.(ô¢åŒÿÿÿÿÿ8øÕ¸¸™.
+I
+java:S1481"'Remove this unused "f5" local variable.(ô¢åŒÿÿÿÿÿ8øÕ¸¸™.

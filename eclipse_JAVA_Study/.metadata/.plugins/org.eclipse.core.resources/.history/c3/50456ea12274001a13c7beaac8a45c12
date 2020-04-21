@@ -1,0 +1,99 @@
+package Test;
+
+/**
+ * 生产者----缓冲区----消费者
+ * 多线程     容器(并发) 多线程
+ *          存与取
+ * @author Pandamin
+ * wait()与sleep()都是阻塞，但是wait()会释放锁
+ */
+public class Stro {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		store container=new store();
+		
+		new Boss(container).start();
+		new Consumer(container).start();
+	}
+}
+//老板
+class Boss extends Thread{
+	store container;
+	public Boss(store container) {
+		super();
+		this.container = container;
+	}
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+		for(int i=0;i<100;i++){
+			System.out.println("生产第"+i+"个商品");
+			container.push(new bun(i));
+		}
+	}
+}
+//顾客
+class Consumer extends Thread{
+	store container;	
+	public Consumer(store container) {
+		super();
+		this.container = container;
+	}
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+		for(int i=0;i<1000;i++){
+			System.out.println("消费第"+container.pop().id+"个商品");
+			container.push(new bun(i));
+		}
+	}
+}
+//缓冲区
+class store{
+	bun[] buns=new bun[10];
+	int count=0;
+	//存
+	public synchronized void push(bun bun) {
+		//何时生产 容器存在空间
+		//存在空间可以生产
+		//不能生产
+		if(count==buns.length){
+			try {
+				this.wait();//线程阻塞，消费者通知生产解除
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		//存在空间，可以生产
+		buns[count++]=bun;
+		this.notifyAll();//唤醒
+	}
+	//取
+	public synchronized bun pop() {
+		//何时消费 容器中是否存在数据
+		//没有数据 只有等待
+		if(count==0){
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}//线程阻塞，生产者通知消费解除
+		}
+		//存在数据可以消费
+		count--;
+		//bun buns=buns[count];
+		this.notifyAll();//唤醒
+		//return buns;
+		return null;
+	}
+}
+//包子
+class bun{
+	int id;
+	public bun(int id) {
+		super();
+		this.id = id;
+	}
+}

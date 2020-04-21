@@ -1,0 +1,12 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÈÎµ¾
+M
+java:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "s2".(›£Ó
+=
+java:S1481"'Remove this unused "s2" local variable.(›£Ó
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒ†Ë

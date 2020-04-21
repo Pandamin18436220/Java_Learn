@@ -1,0 +1,23 @@
+
+h
+java:S3027("FPut single-quotes around '/' to use the faster "indexOf(char)" method.(‘‡°Úúÿÿÿÿ8º­÷â–.
+h
+java:S30274"FPut single-quotes around '?' to use the faster "indexOf(char)" method.(Íœâúúÿÿÿÿ8Í·“ê–.
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(­óíàşÿÿÿÿ8°‚¯ã–.
+t
+java:S1450"RRemove the "url" field and declare it as a local variable in the relevant methods.(«Œåùÿÿÿÿ8¬ˆê–.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8àôÚ›–.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ˆƒÍ„8¾¦©ã–.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Æ¦°Öúÿÿÿÿ8ûá ê–.
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(­şİ¤üÿÿÿÿ8ôâ¹ê–.
+j	java:S116"ORename this field "CRLF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎşÁ8ß¡­ê–.
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ŠÊ¶‚üÿÿÿÿ8‚­‰ê–.
+r
+java:S1450"URemove the "method" field and declare it as a local variable in the relevant methods.(ÁÙôş8º­÷â–.
+=
+java:S1170"!Make this final field static too.(ÎşÁ8ß¡­ê–.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ü÷ƒÂıÿÿÿÿ8ÕŸÚâ–.
+c
+java:S3027."FPut single-quotes around '/' to use the faster "indexOf(char)" method.(÷¡…‹8¶Â½ã–.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åÆÂ¶

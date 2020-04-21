@@ -1,0 +1,10 @@
+
+>
+java:S11480"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Îö¹üùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™Ãø¤
+=
+java:S1481"(Remove this unused "str" local variable.(Š”ît
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥ôÍÈ
+g
+java:S2095$"LUse try-with-resources or close this "URLClassLoader" in a "finally" clause.(ãŽÃ¥þÿÿÿÿ

@@ -1,0 +1,27 @@
+
+6
+java:S1170"!Make this final field static too.(ÎþÁ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(ˆƒÍ„
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä—›Å
+a
+java:S30275"FPut single-quotes around '/' to use the faster "indexOf(char)" method.(‘‡°Úúÿÿÿÿ
+a
+java:S3027A"FPut single-quotes around '?' to use the faster "indexOf(char)" method.(Íœâúúÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(Æ¦°Öúÿÿÿÿ
+>
+java:S1148+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(­þÝ¤üÿÿÿÿ
+o
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘ŸØ
+c	java:S116"ORename this field "CRLF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎþÁ
+Y
+java:S1155y">Use isEmpty() to check whether the collection is empty or not.(¬Í½Äýÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(ŠÊ¶‚üÿÿÿÿ
+>
+java:S1148n"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ü÷ƒÂýÿÿÿÿ
+\
+java:S3027;"FPut single-quotes around '/' to use the faster "indexOf(char)" method.(÷¡…‹
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(­óíàþÿÿÿÿ
+<
+java:S1168z"&Return an empty array instead of null.(¥¹ï

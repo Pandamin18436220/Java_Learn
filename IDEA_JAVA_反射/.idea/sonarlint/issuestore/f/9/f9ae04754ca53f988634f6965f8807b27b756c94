@@ -1,0 +1,7 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¹¨ƒ8¾áå©™.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¯ÒÄu8«Øâ©™.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÆËıíıÿÿÿÿ8ĞªŞ©™.
+k
+java:S1192"IDefine a constant instead of duplicating this literal "pandamin" 3 times.(‚á— üÿÿÿÿ8¾áå©™.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­Úˆıÿÿÿÿ

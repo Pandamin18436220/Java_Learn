@@ -1,0 +1,16 @@
+
+L
+java:S1066C"/Merge this if statement with the enclosing one.(ζƒ―8³ίς–.
+L
+java:S1066;"/Merge this if statement with the enclosing one.(ζƒ―8³ίς–.
+E
+java:S1185Z"(Remove this method to simply inherit it.(¶ΜΡ±8³ίς–.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(…ΐ¦ÿÿÿÿÿ8³ίς–.
+U	java:S106O"9Replace this use of System.out or System.err by a logger.(Λ–£Ω8³ίς–.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ρ΅™ϊÿÿÿÿ8³ίς–.
+T	java:S106%"9Replace this use of System.out or System.err by a logger.(δϊ¥!8³ίς–.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Δ—›Ε
+o
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(³ζώ·8³ίς–.

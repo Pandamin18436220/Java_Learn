@@ -1,0 +1,17 @@
+
+N
+java:S1874"3Remove this use of "newInstance"; it is deprecated.(›µŞ¹øÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(¦òïƒùÿÿÿÿ
+>
+java:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(¾ĞñŠ
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+N
+java:S1874"3Remove this use of "newInstance"; it is deprecated.(¶ËåÅùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(äÍÏ”
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ìÈˆç
+I
+java:S1874 "3Remove this use of "newInstance"; it is deprecated.(íşÏ¾
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø®ïüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Âæ“ú
